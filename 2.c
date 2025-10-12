@@ -11,6 +11,10 @@ int main()
     printf("enter b :\n");
     scanf("%d", &b);
 
-    printf("the sum is %d\n the difference is %d\n the product is %d\n the remainder is %d\n", a+b, a-b, a*b, a%b);
+    printf("the sum is %d\nthe difference is %d\nthe product is %d\n", a+b, a-b, a*b);
+    if(b!=0)
+    printf("the quotient is %d", a/b);
+    else
+    printf("\nDivision by 0 is not possible!!!");
     return 0;
 }
